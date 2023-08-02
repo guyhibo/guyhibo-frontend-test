@@ -8,9 +8,7 @@ import { SocketContext } from '../Context';
 
 // const S3 = require('aws-sdk/clients/s3');
 const AWS = require('aws-sdk');
-
-const apiURL = process.env.REACT_APP_API_ADDRESS;
-
+// const apiURL = process.env.REACT_APP_API_ADDRESS;
 const useStyles = makeStyles((theme) => ({
   video: {
     width: '550px',
@@ -62,7 +60,7 @@ const VideoPlayer = () => {
         const sendingData = {
           name: file,
         };
-        const translateAPI = `${apiURL}/translate`;
+        const translateAPI = 'https://api.makeyourpage.net/api/translate';
         console.log(translateAPI);
         // eslint-disable-next-line
         fetch(translateAPI, {

@@ -4,3 +4,4 @@ server.crt
 server.csr
 server.key
 .DS_Store
+build
