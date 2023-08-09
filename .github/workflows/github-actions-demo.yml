@@ -1,5 +1,5 @@
 name: Deploy to Amazon S3
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+run-name: ${{ github.actor }} GitHub Actions deployment 🚀
 on: [push]
 jobs:
   deploy:
