@@ -103,6 +103,9 @@ const VideoPlayer = () => {
       secretAccessKey: process.env.REACT_APP_S3_ACCESS_SECRET_ACCESS_KEY,
       region: process.env.REACT_APP_S3_REGION,
     });
+    console.log(process.env.REACT_APP_S3_ACCESS_KEY_ID);
+    console.log(process.env.REACT_APP_S3_ACCESS_SECRET_ACCESS_KEY);
+    console.log(process.env.REACT_APP_S3_REGION);
   }, []);
 
   return (
