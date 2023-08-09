@@ -154,7 +154,7 @@ const VideoPlayer = () => {
             <Typography variant="h5" gutterBottom>{call.name || 'Name'}</Typography>
             <video playsInline ref={userVideo} autoPlay className={classes.video} />
           </Grid>
-          <>{translatedSentence}</>
+          <h4>{translatedSentence}</h4>
         </Paper>
       )}
     </Grid>

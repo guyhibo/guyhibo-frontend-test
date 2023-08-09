@@ -10,7 +10,7 @@ const Notifications = () => {
     <>
       {call.isReceivingCall && !callAccepted && (
         <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-          <h1>{call.name} is calling:</h1>
+          <h2>{call.name} (으)로부터 전화가 왔습니다:</h2>
           <Button variant="contained" color="primary" onClick={answerCall}>
             Answer
           </Button>
